@@ -1,10 +1,11 @@
 # fde_tech_screen
 
-Overview
+### Overview
 
 This module implements a sorting function that classifies packages based on their dimensions and mass into one of three categories: STANDARD, SPECIAL, or REJECTED. The classification depends on whether the package is bulky, heavy, or both.
-How the Code Meets Evaluation Criteria
-1. Correct Sorting Logic
+
+
+### 1. Correct Sorting Logic
 
     Bulky condition: Determined by checking if the product of dimensions (width × height × length) is at least 1,000,000 cubic units or if any dimension exceeds 150 units.
 
@@ -20,7 +21,7 @@ How the Code Meets Evaluation Criteria
 
 This logic follows the exact problem requirements clearly and correctly.
 
-2. Code Quality
+### 2. Code Quality
 
     Input validation is done upfront with explicit checks for:
 
@@ -34,7 +35,7 @@ This logic follows the exact problem requirements clearly and correctly.
 
     Well-documented with a concise docstring specifying return values and exceptions.
 
-3. Handling Edge Cases & Inputs
+### 3. Handling Edge Cases & Inputs
 
     Type Validation: Raises TypeError if any input is not numeric.
 
@@ -44,7 +45,7 @@ This logic follows the exact problem requirements clearly and correctly.
 
     The function is robust to invalid input types and invalid numeric values.
 
-4. Test Coverage
+### 4. Test Coverage
 
     Unit tests cover:
 
@@ -58,7 +59,8 @@ This logic follows the exact problem requirements clearly and correctly.
 
     This ensures comprehensive coverage of both functionality and input validation.
 
-How to Test the Code
+### How to Test the Code
+
 Prerequisites
 
     - Python 3.7+
